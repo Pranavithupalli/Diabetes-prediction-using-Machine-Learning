@@ -67,20 +67,25 @@ Best Accuracy Achieved: Approximately 79–85% depending on the model
 Confusion Matrix Output:
 [[90 17]
  [14 49]]
+ 
 Classification Report:
 Precision: 0.75  
 Recall: 0.78  
 F1-score: 0.76  
+
 📈 Key Insights
 Glucose levels and BMI showed the strongest correlation with diabetes risk.
 
 Models like Random Forest and Logistic Regression provided the most balanced performance.
+
 📎 How to Run
-##Clone the repo
+Clone the repo
 git clone https://github.com/your-username/diabetes-prediction.git
+
 cd diabetes-prediction
-##Install dependencies
+Install dependencies
 pip install -r requirements.txt
-##Run the Jupyter Notebook
+
+Run the Jupyter Notebook
 jupyter notebook main-checkpoint.ipynb
 
